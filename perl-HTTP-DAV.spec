@@ -54,7 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
-%{_bindir}/dave
+%attr(755,root,root) %{_bindir}/dave
 %{perl_vendorlib}/HTTP/DAV.pm
 %{perl_vendorlib}/HTTP/DAV
 %{_mandir}/man1/dave.*
