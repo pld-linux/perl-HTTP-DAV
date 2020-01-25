@@ -4,7 +4,6 @@
 #
 %define		pdir	HTTP
 %define		pnam	DAV
-%include	/usr/lib/rpm/macros.perl
 Summary:	HTTP::DAV - A WebDAV client library for Perl5
 Summary(pl.UTF-8):	HTTP::DAV - biblioteka kliencka WebDAV dla Perla 5
 Name:		perl-HTTP-DAV
